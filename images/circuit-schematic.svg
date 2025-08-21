@@ -1,0 +1,202 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title and Border -->
+  <rect x="10" y="10" width="1180" height="780" fill="white" stroke="black" stroke-width="2"/>
+  <text x="600" y="40" font-size="24" font-weight="bold" text-anchor="middle">Smart Inhaler System - Circuit Schematic</text>
+  
+  <!-- ESP8266 Module -->
+  <rect x="450" y="300" width="200" height="280" fill="#e8e8e8" stroke="black" stroke-width="2"/>
+  <text x="550" y="320" font-size="16" font-weight="bold" text-anchor="middle">ESP8266</text>
+  <text x="550" y="340" font-size="12" text-anchor="middle">NodeMCU</text>
+  
+  <!-- ESP8266 Pins Left Side -->
+  <text x="440" y="370" font-size="11" text-anchor="end">3V3</text>
+  <circle cx="450" cy="367" r="3" fill="black"/>
+  
+  <text x="440" y="390" font-size="11" text-anchor="end">GND</text>
+  <circle cx="450" cy="387" r="3" fill="black"/>
+  
+  <text x="440" y="410" font-size="11" text-anchor="end">A0</text>
+  <circle cx="450" cy="407" r="3" fill="black"/>
+  
+  <text x="440" y="430" font-size="11" text-anchor="end">D1/SCL</text>
+  <circle cx="450" cy="427" r="3" fill="black"/>
+  
+  <text x="440" y="450" font-size="11" text-anchor="end">D2/SDA</text>
+  <circle cx="450" cy="447" r="3" fill="black"/>
+  
+  <text x="440" y="470" font-size="11" text-anchor="end">D5</text>
+  <circle cx="450" cy="467" r="3" fill="black"/>
+  
+  <text x="440" y="490" font-size="11" text-anchor="end">D6</text>
+  <circle cx="450" cy="487" r="3" fill="black"/>
+  
+  <text x="440" y="510" font-size="11" text-anchor="end">D7</text>
+  <circle cx="450" cy="507" r="3" fill="black"/>
+  
+  <!-- ESP8266 Pins Right Side -->
+  <text x="660" y="370" font-size="11">VIN (5V)</text>
+  <circle cx="650" cy="367" r="3" fill="black"/>
+  
+  <text x="660" y="390" font-size="11">GND</text>
+  <circle cx="650" cy="387" r="3" fill="black"/>
+  
+  <!-- BME280 Sensor -->
+  <rect x="150" y="380" width="120" height="100" fill="#d4e8ff" stroke="black" stroke-width="2"/>
+  <text x="210" y="400" font-size="14" font-weight="bold" text-anchor="middle">BME280</text>
+  <text x="210" y="420" font-size="10" text-anchor="middle">Temp/Humidity</text>
+  <text x="210" y="435" font-size="10" text-anchor="middle">Pressure</text>
+  
+  <text x="145" y="455" font-size="10" text-anchor="end">VCC</text>
+  <circle cx="150" cy="452" r="3" fill="black"/>
+  <text x="145" y="470" font-size="10" text-anchor="end">GND</text>
+  <circle cx="150" cy="467" r="3" fill="black"/>
+  <text x="275" y="455" font-size="10">SCL</text>
+  <circle cx="270" cy="452" r="3" fill="black"/>
+  <text x="275" y="470" font-size="10">SDA</text>
+  <circle cx="270" cy="467" r="3" fill="black"/>
+  
+  <!-- RTC DS3231 -->
+  <rect x="150" y="250" width="120" height="80" fill="#ffe4d4" stroke="black" stroke-width="2"/>
+  <text x="210" y="270" font-size="14" font-weight="bold" text-anchor="middle">DS3231</text>
+  <text x="210" y="290" font-size="10" text-anchor="middle">RTC Module</text>
+  
+  <text x="145" y="310" font-size="10" text-anchor="end">VCC</text>
+  <circle cx="150" cy="307" r="3" fill="black"/>
+  <text x="145" y="325" font-size="10" text-anchor="end">GND</text>
+  <circle cx="150" cy="322" r="3" fill="black"/>
+  <text x="275" y="310" font-size="10">SCL</text>
+  <circle cx="270" cy="307" r="3" fill="black"/>
+  <text x="275" y="325" font-size="10">SDA</text>
+  <circle cx="270" cy="322" r="3" fill="black"/>
+  
+  <!-- OLED Display -->
+  <rect x="150" y="120" width="120" height="80" fill="#d4ffd4" stroke="black" stroke-width="2"/>
+  <text x="210" y="140" font-size="14" font-weight="bold" text-anchor="middle">OLED</text>
+  <text x="210" y="160" font-size="10" text-anchor="middle">128x64 I2C</text>
+  
+  <text x="145" y="180" font-size="10" text-anchor="end">VCC</text>
+  <circle cx="150" cy="177" r="3" fill="black"/>
+  <text x="145" y="195" font-size="10" text-anchor="end">GND</text>
+  <circle cx="150" cy="192" r="3" fill="black"/>
+  <text x="275" y="180" font-size="10">SCL</text>
+  <circle cx="270" cy="177" r="3" fill="black"/>
+  <text x="275" y="195" font-size="10">SDA</text>
+  <circle cx="270" cy="192" r="3" fill="black"/>
+  
+  <!-- FSR Sensor -->
+  <rect x="780" y="380" width="100" height="80" fill="#ffd4ff" stroke="black" stroke-width="2"/>
+  <text x="830" y="400" font-size="14" font-weight="bold" text-anchor="middle">FSR</text>
+  <text x="830" y="420" font-size="10" text-anchor="middle">Force Sensor</text>
+  
+  <text x="775" y="445" font-size="10" text-anchor="end">Signal</text>
+  <circle cx="780" cy="442" r="3" fill="black"/>
+  <text x="885" y="445" font-size="10">GND</text>
+  <circle cx="880" cy="442" r="3" fill="black"/>
+  
+  <!-- 10K Resistor for FSR -->
+  <rect x="820" y="480" width="20" height="60" fill="white" stroke="black" stroke-width="2"/>
+  <text x="830" y="530" font-size="9" text-anchor="middle">10kΩ</text>
+  
+  <!-- MQ-135 Air Quality Sensor -->
+  <rect x="780" y="250" width="100" height="80" fill="#ffffd4" stroke="black" stroke-width="2"/>
+  <text x="830" y="270" font-size="14" font-weight="bold" text-anchor="middle">MQ-135</text>
+  <text x="830" y="290" font-size="10" text-anchor="middle">Air Quality</text>
+  
+  <text x="775" y="310" font-size="10" text-anchor="end">VCC</text>
+  <circle cx="780" cy="307" r="3" fill="black"/>
+  <text x="775" y="325" font-size="10" text-anchor="end">DOUT</text>
+  <circle cx="780" cy="322" r="3" fill="black"/>
+  <text x="885" y="310" font-size="10">GND</text>
+  <circle cx="880" cy="307" r="3" fill="black"/>
+  
+  <!-- Buzzer -->
+  <rect x="780" y="120" width="100" height="60" fill="#ffcccc" stroke="black" stroke-width="2"/>
+  <text x="830" y="140" font-size="14" font-weight="bold" text-anchor="middle">Buzzer</text>
+  <text x="830" y="160" font-size="10" text-anchor="middle">5V Active</text>
+  
+  <text x="775" y="170" font-size="10" text-anchor="end">Signal</text>
+  <circle cx="780" cy="167" r="3" fill="black"/>
+  <text x="885" y="170" font-size="10">GND</text>
+  <circle cx="880" cy="167" r="3" fill="black"/>
+  
+  <!-- Vibration Motor -->
+  <rect x="950" y="120" width="100" height="60" fill="#ccffcc" stroke="black" stroke-width="2"/>
+  <text x="1000" y="140" font-size="14" font-weight="bold" text-anchor="middle">Vibration</text>
+  <text x="1000" y="160" font-size="10" text-anchor="middle">Motor</text>
+  
+  <text x="945" y="170" font-size="10" text-anchor="end">Signal</text>
+  <circle cx="950" cy="167" r="3" fill="black"/>
+  <text x="1055" y="170" font-size="10">GND</text>
+  <circle cx="1050" cy="167" r="3" fill="black"/>
+  
+  <!-- Power Supply -->
+  <rect x="450" y="650" width="200" height="80" fill="#ffeecc" stroke="black" stroke-width="2"/>
+  <text x="550" y="670" font-size="14" font-weight="bold" text-anchor="middle">Power Supply</text>
+  <text x="550" y="690" font-size="12" text-anchor="middle">USB 5V or</text>
+  <text x="550" y="710" font-size="12" text-anchor="middle">Battery Pack</text>
+  
+  <!-- Wiring -->
+  <!-- I2C Bus (SCL) - Blue -->
+  <path d="M 270 177 L 380 177 L 380 427 L 450 427" stroke="blue" stroke-width="2" fill="none"/>
+  <path d="M 270 307 L 380 307 L 380 427" stroke="blue" stroke-width="2" fill="none"/>
+  <path d="M 270 452 L 380 452 L 380 427" stroke="blue" stroke-width="2" fill="none"/>
+  
+  <!-- I2C Bus (SDA) - Green -->
+  <path d="M 270 192 L 360 192 L 360 447 L 450 447" stroke="green" stroke-width="2" fill="none"/>
+  <path d="M 270 322 L 360 322 L 360 447" stroke="green" stroke-width="2" fill="none"/>
+  <path d="M 270 467 L 360 467 L 360 447" stroke="green" stroke-width="2" fill="none"/>
+  
+  <!-- Power Lines (3.3V) - Red -->
+  <path d="M 450 367 L 100 367 L 100 177 L 150 177" stroke="red" stroke-width="2" fill="none"/>
+  <path d="M 100 307 L 150 307" stroke="red" stroke-width="2" fill="none"/>
+  <path d="M 100 452 L 150 452" stroke="red" stroke-width="2" fill="none"/>
+  
+  <!-- Ground Lines - Black -->
+  <path d="M 450 387 L 80 387 L 80 192 L 150 192" stroke="black" stroke-width="2" fill="none"/>
+  <path d="M 80 322 L 150 322" stroke="black" stroke-width="2" fill="none"/>
+  <path d="M 80 467 L 150 467" stroke="black" stroke-width="2" fill="none"/>
+  <path d="M 650 387 L 920 387 L 920 167 L 880 167" stroke="black" stroke-width="2" fill="none"/>
+  <path d="M 920 167 L 1050 167" stroke="black" stroke-width="2" fill="none"/>
+  <path d="M 920 307 L 880 307" stroke="black" stroke-width="2" fill="none"/>
+  <path d="M 920 442 L 880 442" stroke="black" stroke-width="2" fill="none"/>
+  <path d="M 830 540 L 830 560 L 920 560 L 920 442" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Analog/Digital Lines - Orange -->
+  <path d="M 450 407 L 400 407 L 400 580 L 740 580 L 740 442 L 780 442" stroke="orange" stroke-width="2" fill="none"/>
+  <path d="M 450 467 L 700 467 L 700 322 L 780 322" stroke="orange" stroke-width="2" fill="none"/>
+  <path d="M 450 487 L 700 487 L 700 167 L 780 167" stroke="orange" stroke-width="2" fill="none"/>
+  <path d="M 450 507 L 670 507 L 670 100 L 940 100 L 940 167 L 950 167" stroke="orange" stroke-width="2" fill="none"/>
+  
+  <!-- 5V Power Line - Red Thick -->
+  <path d="M 650 367 L 720 367 L 720 307 L 780 307" stroke="red" stroke-width="3" fill="none"/>
+  
+  <!-- Power from supply -->
+  <path d="M 550 650 L 550 590 L 650 590 L 650 367" stroke="red" stroke-width="3" fill="none"/>
+  
+  <!-- Legend -->
+  <rect x="50" y="50" width="150" height="120" fill="white" stroke="black" stroke-width="1"/>
+  <text x="125" y="70" font-size="14" font-weight="bold" text-anchor="middle">Legend</text>
+  
+  <line x1="60" y1="85" x2="90" y2="85" stroke="blue" stroke-width="2"/>
+  <text x="95" y="90" font-size="11">I2C SCL</text>
+  
+  <line x1="60" y1="100" x2="90" y2="100" stroke="green" stroke-width="2"/>
+  <text x="95" y="105" font-size="11">I2C SDA</text>
+  
+  <line x1="60" y1="115" x2="90" y2="115" stroke="red" stroke-width="2"/>
+  <text x="95" y="120" font-size="11">Power (3.3V/5V)</text>
+  
+  <line x1="60" y1="130" x2="90" y2="130" stroke="black" stroke-width="2"/>
+  <text x="95" y="135" font-size="11">Ground</text>
+  
+  <line x1="60" y1="145" x2="90" y2="145" stroke="orange" stroke-width="2"/>
+  <text x="95" y="150" font-size="11">Signal Lines</text>
+  
+  <!-- Notes -->
+  <rect x="900" y="50" width="250" height="100" fill="lightyellow" stroke="black" stroke-width="1"/>
+  <text x="1025" y="70" font-size="12" font-weight="bold" text-anchor="middle">Important Notes:</text>
+  <text x="910" y="90" font-size="10">• All I2C devices share SCL/SDA</text>
+  <text x="910" y="105" font-size="10">• FSR needs 10kΩ pull-down resistor</text>
+  <text x="910" y="120" font-size="10">• MQ-135 needs 5V power</text>
+  <text x="910" y="135" font-size="10">• Use level shifters if needed</text>
+</svg>
