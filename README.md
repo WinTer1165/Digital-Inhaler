@@ -56,6 +56,7 @@ Asthma affects **7% of Bangladesh's population** (approximately 11.9 million peo
 ---
 
 ##  Our Solution
+
 <img src="https://github.com/WinTer1165/Digital-Inhaler/blob/main/images/IMG_0572.jpg?raw=true" alt="Device Photo 1" style="width:300px;"/>
 <img src="https://github.com/WinTer1165/Digital-Inhaler/blob/main/images/IMG_0573.jpg?raw=true" alt="Device Photo 2" style="width:300px;"/>
 <img src="https://github.com/WinTer1165/Digital-Inhaler/blob/main/images/IMG_0574.jpg?raw=true" alt="Device Photo 3" style="width:300px;"/>
@@ -73,6 +74,9 @@ A **locally-manufactured, affordable IoT smart inhaler system** designed specifi
 ##  Features
 
 ![Demo GIF](https://github.com/WinTer1165/Digital-Inhaler/blob/main/images/demo.gif?raw=true)
+
+<img src="https://github.com/WinTer1165/Digital-Inhaler/blob/main/images/ui.png?raw=true" alt="UI/UX" style="width:900px;"/>
+
 
 ### Core Features
 -  **Puff Detection & Counting**: Accurate force-sensitive resistor (FSR) based detection
