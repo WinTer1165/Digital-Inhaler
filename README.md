@@ -193,7 +193,8 @@ NTPClient           // v3.2.1
 
 ##  Installation Guide
 <img src="https://raw.githubusercontent.com/WinTer1165/Digital-Inhaler/bda6932cfa721df9af1bc6edc74ee1808390fdb8/images/circuit-schematic.svg" alt="Circuit Diagram" style="width:600px;"/>
-### 1. Hardware Setup
+
+###  1. Hardware Setup
 
 1. Assemble components according to the circuit diagram
 2. Ensure all I2C devices have unique addresses:
