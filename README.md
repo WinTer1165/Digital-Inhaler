@@ -134,20 +134,20 @@ A **locally-manufactured, affordable IoT smart inhaler system** designed specifi
 
 | Component | Model | Quantity | Purpose | Approx. Cost (BDT) |
 |-----------|-------|----------|---------|-------------------|
-| **Microcontroller** | ESP8266 NodeMCU | 1 | Main processor with WiFi | 350 |
-| **Force Sensor** | FSR 402 | 1 | Puff detection | 150 |
-| **Environmental Sensor** | BME280 | 1 | Temp, humidity, pressure | 250 |
-| **Air Quality Sensor** | MQ-135 | 1 | Air quality monitoring | 200 |
-| **Display** | 0.96" OLED I2C | 1 | Local display | 300 |
-| **RTC Module** | DS3231 | 1 | Time keeping | 150 |
-| **Buzzer** | Active 5V | 1 | Audio alerts | 20 |
-| **Vibration Motor** | 3V Mini | 1 | Haptic feedback | 30 |
-| **Resistor** | 10kΩ | 1 | Pull-down for FSR | 2 |
-| **Wires & PCB** | - | - | Connections | 100 |
+| **Microcontroller** | ESP8266 NodeMCU | 1 | Main processor with WiFi | 650 |
+| **Force Sensor** | FSR 402 | 1 | Puff detection | 645 |
+| **Environmental Sensor** | BME280 | 1 | Temp, humidity, pressure | 490 |
+| **Air Quality Sensor** | MQ-135 | 1 | Air quality monitoring | 174 |
+| **Display** | 0.96" OLED I2C | 1 | Local display | 290 |
+| **RTC Module** | DS3231 | 1 | Time keeping | 250 |
+| **Buzzer** | Active 5V | 1 | Audio alerts | 50 |
+| **Vibration Motor** | 3V Mini | 1 | Haptic feedback | 100 |
+| **Resistor** | 10kΩ | 1 | Pull-down for FSR | 5 |
+| **Wires & PCB** | - | - | Connections | 200 |
 | **Enclosure** | 3D Printed | 1 | Device housing | 200 |
 | **Battery** | Li-Po 3.7V 1000mAh | 1 | Power supply | 250 |
 
-**Total Development Cost: ~BDT 2,000 ($16.50)**
+**Total Development Cost: ~BDT 3500 ($29.50)**
 
 ### Pin Connections
 
