@@ -9,17 +9,17 @@
 ---
 
 ## Table of Contents
-- [Problem Statement](#-problem-statement)
-- [Our Solution](#-our-solution)
-- [Features](#-features)
-- [System Architecture](#-system-architecture)
-- [Hardware Components](#-hardware-components)
-- [Software Requirements](#-software-requirements)
-- [Installation Guide](#-installation-guide)
-- [Circuit Diagram](#-circuit-diagram)
-- [Cost Analysis](#-cost-analysis)
-- [Usage](#-usage)
-- [API Documentation](#-api-documentation)
+- [Problem Statement](#problem-statement)
+- [Our Solution](#our-solution)
+- [Features](#features)
+- [System Architecture](#system-architecture)
+- [Hardware Components](#hardware-components)
+- [Software Requirements](#software-requirements)
+- [Installation Guide](#installation-guide)
+- [Circuit Diagram](#circuit-diagram)
+- [Cost Analysis](#cost-analysis)
+- [Usage](#usage)
+- [API Documentation](#api-documentation)
 
 ---
 
@@ -335,3 +335,4 @@ See the included circuit schematic for detailed wiring instructions. Key connect
 {
   "command": "getHistory"
 }
+```
